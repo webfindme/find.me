@@ -1,0 +1,35 @@
+input.text {
+     padding: 12px;
+     font-size: 15px;
+     border-width: 1px;
+     border-color: #CCCCCC;
+     background-color: #FFFFFF;
+     color: #767575;
+     border-style: solid;
+     border-radius: 12px;
+     position: fixed;
+     left: 1; bottom: 0;
+     width: 80%;
+}
+input.submit {
+     padding: 12px;
+     font-size: 15px;
+     border-width: 1px;
+     border-color: #CCCCCC;
+     background-color: #FFFFFF;
+     color: #767575;
+     border-style: solid;
+     border-radius: 12px;
+     position: fixed;
+     right: 0; bottom: 0;
+     width: 17%;
+}
+
+input.submit:hover {
+     background-color:#BBBBBB;
+     color: white;
+}
+
+input:focus {
+     outline:none;
+}
